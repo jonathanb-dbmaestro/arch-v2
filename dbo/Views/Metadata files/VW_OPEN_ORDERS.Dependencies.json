@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CUSTOMERS",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ORDERS",
+    "type": "Table"
+  }
+]
