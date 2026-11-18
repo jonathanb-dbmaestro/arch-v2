@@ -6,6 +6,7 @@ CREATE TABLE [dbo].[AUDIT_LOG](
 	[ID] [int] NOT NULL,
 	[EVENT] [nvarchar](50) NOT NULL,
 	[CREATED_AT] [datetime2](7) NOT NULL,
+	[USER_NAME] [nvarchar](100) NULL,
 PRIMARY KEY CLUSTERED 
 (
 	[ID] ASC
