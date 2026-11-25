@@ -10,6 +10,7 @@ CREATE TABLE [dbo].[ORDERS](
 	[TOTAL] [decimal](12, 2) NOT NULL,
 	[DISCOUNT] [decimal](5, 2) NULL,
 	[CHANNEL] [varchar](20) NULL,
+	[PRIORITY] [tinyint] NULL,
  CONSTRAINT [PK_ORDERS] PRIMARY KEY CLUSTERED 
 (
 	[ORDER_ID] ASC
